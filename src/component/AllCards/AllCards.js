@@ -8,7 +8,7 @@ const AllCards = (props) => {
    
     return (
         <div className='display-all-cards'>
-            <Card food={food}></Card>
+            <Card handleAddToCart = {props.handleAddToCart} food={food}></Card>
         </div>
     );
 };

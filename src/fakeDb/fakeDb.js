@@ -27,7 +27,14 @@ const saveTodb = db =>{
 const getDb = ()=>{
 
     let saveDb = localStorage.getItem('shopping-cart')
-    saveDb = JSON.parse(saveDb);
+    if(saveDb){
+        saveDb = JSON.parse(saveDb);
+    }
+    else{
+        saveDb = {};
+    }
 
     return saveDb;
 }
+
+export {addToDb, removeFromDb, getDb}
