@@ -1,0 +1,30 @@
+.b-background{
+    background-color: rgb(58, 12, 12);
+}
+.input-field{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.input{
+    width: 700px;
+    height: 30px;
+    border-radius: 10px;
+    margin: 10px auto;
+    
+}
+
+.main-body{
+    width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.all-cards{
+    color: aliceblue;
+}
+.cards-display{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
